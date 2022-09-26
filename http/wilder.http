@@ -1,0 +1,35 @@
+########################## Wilders Requests #############################
+
+###Create
+POST http://localhost:5000/api/wilders
+Content-Type: application/json
+
+{ 
+    "name": "Kevin",
+    "city": "Paris"
+}
+
+###FindAll wilders
+
+GET http://localhost:5000/api/wilders
+Content-Type: application/json
+
+###Find wilder by id
+
+GET http://localhost:5000/api/wilders/1
+Content-Type: application/json
+
+###Update
+
+PUT  http://localhost:5000/api/wilders/1
+Content-Type: application/json
+
+{ 
+    "name": "Juju",
+    "city": "Lille"
+}
+
+###Delete
+
+DELETE   http://localhost:5000/api/wilders/7
+Content-Type: application/json

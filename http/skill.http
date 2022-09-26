@@ -1,0 +1,32 @@
+########################## Skills Requests #############################
+
+###Create skill
+
+POST http://localhost:5000/api/skills
+Content-Type: application/json
+
+{ 
+    "name": "C#"
+}
+
+###FindAll skills
+
+GET http://localhost:5000/api/skills
+Content-Type: application/json
+
+###Find skill by id
+
+GET http://localhost:5000/api/skills/1
+Content-Type: application/json
+
+###Update
+
+PUT  http://localhost:5000/api/skills/1
+Content-Type: application/json
+
+{"skillName": "TS"}
+
+###Delete
+
+DELETE   http://localhost:5000/api/skills/1
+Content-Type: application/json

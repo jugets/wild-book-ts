@@ -1,0 +1,15 @@
+########################## Upovtes Requests #############################
+
+###Create
+POST http://localhost:5000/api/upvotes
+Content-Type: application/json
+
+{ 
+    "skills": ["Symfony", "React"],
+    "name": "Kevin"
+}
+
+###Upvote
+
+PUT  http://localhost:5000/api/upvotes/1
+Content-Type: application/json
